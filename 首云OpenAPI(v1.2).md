@@ -5254,8 +5254,8 @@ def create_disk():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "InstanceId" is required.              | 	参数InstanceId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "InstanceId" cannot be empty.          | 	参数InstanceId不能为空。     |
 
  **返回示例**
 
@@ -5317,8 +5317,8 @@ def attack_disk():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5379,8 +5379,8 @@ def detack_disk():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5460,8 +5460,7 @@ def delete_disk():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParametersIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数不能为空。     |
 
  **返回示例**
 
@@ -5542,8 +5541,8 @@ def describe_disks():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5684,8 +5683,8 @@ def describe_poolUsage():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5745,8 +5744,8 @@ def change_iops():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5807,8 +5806,8 @@ def change_bandwidth():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5868,8 +5867,8 @@ def describe_diskUsage():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "DiskId" is required.              | 	参数DiskId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "DiskId" cannot be empty.          | 	参数DiskId不能为空。     |
 
  **返回示例**
 
@@ -5931,8 +5930,8 @@ def create_snapshot():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "SnapshotId" is required.              | 	参数SnapshotId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "SnapshotId" cannot be empty.          | 	参数SnapshotId不能为空。     |
 
  **返回示例**
 
@@ -5991,8 +5990,9 @@ def clone_snapshot():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "SnapshotId" is required.              | 	参数SnapshotId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "SnapshotId" cannot be empty.          | 	参数SnapshotId不能为空。     |
+
 
  **返回示例**
 
@@ -6050,8 +6050,9 @@ def delete_snapshot():
 
 | httpcode | 错误码                      | 错误信息                                           | 描述                     |
 | -------- | -------------------------- | -------------------------------------------------- | ------------------------ |
-| 400      | ParameterInvalid           | The parameter "RegionId" is required.              | 	参数RegionId是必选项。      |
-| 400      | ParameterIsEmpty           | The parameter "RegionId" cannot be empty.          | 	参数RegionId不能为空。     |
+| 400      | ParameterInvalid           | The parameter "SnapshotId" is required.              | 	参数SnapshotId是必选项。      |
+| 400      | ParameterIsEmpty           | The parameter "SnapshotId" cannot be empty.          | 	参数SnapshotId不能为空。     |
+
 
  **返回示例**
 
